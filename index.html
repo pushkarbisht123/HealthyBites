@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HealthyBites</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="assets/css/main.css" rel="stylesheet"
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+
+         <img src="data:image/jpeg;base64,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" alt="">
+        <h1>Healthy Bites<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn-book-a-table" href="#book-a-table">Book Your Table Now</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Healthy food<br>healthy you<br>healthy future</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Welcome to our healthy food website! We make eating healthy easy and enjoyable with nutritious recipes and helpful tips. Nourish your body, transform your health, and join our community today.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+            <a href="https://www.youtube.com/watch?v=XMcab1MFaLc" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Want to know <span>About Us</span></p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+            <div class="call-us position-absolute">
+              <h4>Book a Table</h4>
+              <p>+910088006600</p>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Eating a healthy diet is vital for overall well-being. It provides essential nutrients, reduces the risk of chronic diseases, and includes fruits, veggies, whole grains, lean proteins, and healthy fats.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Eating a healthy diet can improve your physical and mental health.</li>
+                <li><i class="bi bi-check2-all"></i> Processed foods, sugary drinks, and unhealthy fats should be limited in a healthy diet..</li>
+                <li><i class="bi bi-check2-all"></i> A healthy diet should be balanced and include a variety of whole foods.</li>
+              </ul>
+              <p>
+                A healthy diet should include a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Processed foods, sugary drinks, and unhealthy fats should be limited or avoided altogether.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Why Choose HealthyBites?</h3>
+              <p>
+                The "Why Choose My Healthybites?" section is an opportunity to showcase the unique value proposition of your healthy food website.</p>
+              <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-clipboard-data"></i>
+                  <h4>Healthy Bites</h4>
+                  <p>Delicious and Nutritious Recipes for Every Meal</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-gem"></i>
+                  <h4>Bite-Sized Wellness</h4>
+                  <p>Small Changes for Big Health Benefits</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Fresh & Flavorful</h4>
+                  <p>Discover the Joy of Cooking with Whole Foods</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1234" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Menu</h2>
+          <p>Check Our <span>HealthyBites Menu</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Starters</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Breakfast</h4>
+            </a><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>Lunch</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+              <h4>Dinner</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Starters</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://frombowltosoul.com/wp-content/uploads/2018/08/chickpeas-6-500x500.jpg" class="glightbox"><img src="https://frombowltosoul.com/wp-content/uploads/2018/08/chickpeas-6-500x500.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Chhole (Chickpea Curry)</h4>
+                <p class="ingredients">
+                  serrano pepper, cloves garlic,piece fresh ginger,medium yellow onion, canola oil or grapeseed oil and etc.
+                </p>
+                <p class="price">
+                  ₹200
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/tofKI3G1Hsz6U26mcJOipukFJQM=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4293537-3540838903f04bde9f3d6aca5176294b.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/tofKI3G1Hsz6U26mcJOipukFJQM=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4293537-3540838903f04bde9f3d6aca5176294b.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Potato Curry Soup with Cauliflower</h4>
+                <p class="ingredients">
+                  ground coriander,ground cumin,ground cinnamon,ground turmeric, salt and etc.
+                </p>
+                <p class="price">
+                  ₹240
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/T9_SyGHdDrXhc51m_PvaGjwh57A=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7115893-dbc6d2d42ac544adbddd5429ed76e029.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/T9_SyGHdDrXhc51m_PvaGjwh57A=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7115893-dbc6d2d42ac544adbddd5429ed76e029.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Chickpea & Potato Curry</h4>
+                <p class="ingredients">
+                  Yukon Gold potatoes,grapeseed oil,onion and etc.
+                </p>
+                <p class="price">
+                  ₹200
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/KResS09dzEp6KQdoFAH7Attwguo=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5694953-c059a8745e444fae84d41ad0c3a5474b.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/KResS09dzEp6KQdoFAH7Attwguo=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5694953-c059a8745e444fae84d41ad0c3a5474b.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Vegan Coconut Chickpea Curry</h4>
+                <p class="ingredients">
+                  avocado oil or canola oil,chopped onion,diced bell pepper,medium zucchini,chickpeas and etc.
+                </p>
+                <p class="price">
+                  ₹220
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://images.eatsmarter.com/sites/default/files/styles/max_size/public/peanut-sweet-potato-soup-676015.jpg" class="glightbox"><img src="https://images.eatsmarter.com/sites/default/files/styles/max_size/public/peanut-sweet-potato-soup-676015.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Curried Sweet Potato & Peanut Soup</h4>
+                <p class="ingredients">
+                  canola oil,yellow onion, minced garlic,minced fresh ginger, red curry paste and etc.
+                </p>
+                <p class="price">
+                  ₹220
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/XYuZWUxzQIybUqmKhHYw4APeSNI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6349104-f7c6d0e430f949cb9be39fc4ee928994.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/XYuZWUxzQIybUqmKhHYw4APeSNI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6349104-f7c6d0e430f949cb9be39fc4ee928994.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Curried Chickpea Stew</h4>
+                <p class="ingredients">
+                  prewashed spinach,canola oil,onion,fresh ginger and etc.
+                </p>
+                <p class="price">
+                  ₹250
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Starter Menu Content -->
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Breakfast</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Mix veg </h4>
+                <p class="ingredients">
+                  cottage cheese, onion ,tomato,salt and etc.
+                </p>
+                <p class="price">
+                  ₹300
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>chicken rolls with vegiees</h4>
+                <p class="ingredients">
+                  Cauliflower,salt,tomato,chicken and etc.
+                </p>
+                <p class="price">
+                  ₹260
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/lFXfNF9uxr2lnCNgv_YECh6iV3k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/3756597-70660c24abb042a6947614ac30f403bb.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/lFXfNF9uxr2lnCNgv_YECh6iV3k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/3756597-70660c24abb042a6947614ac30f403bb.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Indian-Spiced Eggplant & Cauliflower Stew</h4>
+                <p class="ingredients">
+                  curry powder, garam masala, salt,egg,Cauliflower and etc.
+                </p>
+                <p class="price">
+                  ₹280
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Mix Veg</h4>
+                <p class="ingredients">
+                  Cabbage,onion,carrot,walnut, salt and etc.
+                </p>
+                <p class="price">
+                  ₹212
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Breakfast Menu Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Lunch</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>chicken rolls with vegiees</h4>
+                <p class="ingredients">
+                  Cauliflower,salt,tomato,chicken and etc.
+                </p>
+                <p class="price">
+                  ₹260
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://images.eatsmarter.com/sites/default/files/styles/max_size/public/peanut-sweet-potato-soup-676015.jpg" class="glightbox"><img src="https://images.eatsmarter.com/sites/default/files/styles/max_size/public/peanut-sweet-potato-soup-676015.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Curried Sweet Potato & Peanut Soup</h4>
+                <p class="ingredients">
+                  canola oil,yellow onion, minced garlic,minced fresh ginger, red curry paste and etc.
+                </p>
+                <p class="price">
+                  ₹220
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  ₹8.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/T9_SyGHdDrXhc51m_PvaGjwh57A=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7115893-dbc6d2d42ac544adbddd5429ed76e029.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/T9_SyGHdDrXhc51m_PvaGjwh57A=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7115893-dbc6d2d42ac544adbddd5429ed76e029.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Chickpea & Potato Curry</h4>
+                <p class="ingredients">
+                  Yukon Gold potatoes,grapeseed oil,onion and etc.
+                </p>
+                <p class="price">
+                  ₹200
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://www.eatingwell.com/thmb/tofKI3G1Hsz6U26mcJOipukFJQM=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4293537-3540838903f04bde9f3d6aca5176294b.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/tofKI3G1Hsz6U26mcJOipukFJQM=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4293537-3540838903f04bde9f3d6aca5176294b.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Potato Curry Soup with Cauliflower</h4>
+                <p class="ingredients">
+                  ground coriander,ground cumin,ground cinnamon,ground turmeric, salt and etc.
+                </p>
+                <p class="price">
+                  ₹240
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://frombowltosoul.com/wp-content/uploads/2018/08/chickpeas-6-500x500.jpg" class="glightbox"><img src="https://frombowltosoul.com/wp-content/uploads/2018/08/chickpeas-6-500x500.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Chhole (Chickpea Curry)</h4>
+                <p class="ingredients">
+                  serrano pepper, cloves garlic,piece fresh ginger,medium yellow onion, canola oil or grapeseed oil and etc.
+                </p>
+                <p class="price">
+                  ₹200
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Lunch Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Dinner</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <div class="col-lg-4 menu-item">
+                  <a href="https://www.eatingwell.com/thmb/XYuZWUxzQIybUqmKhHYw4APeSNI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6349104-f7c6d0e430f949cb9be39fc4ee928994.jpg" class="glightbox"><img src="https://www.eatingwell.com/thmb/XYuZWUxzQIybUqmKhHYw4APeSNI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6349104-f7c6d0e430f949cb9be39fc4ee928994.jpg" class="menu-img img-fluid" alt=""></a>
+                  <h4>Curried Chickpea Stew</h4>
+                  <p class="ingredients">
+                    prewashed spinach,canola oil,onion,fresh ginger and etc.
+                  </p>
+                  <p class="price">
+                    ₹250
+                  </p>
+                </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://images.eatsmarter.com/sites/default/files/styles/max_size/public/peanut-sweet-potato-soup-676015.jpg" class="glightbox"><img src="https://images.eatsmarter.com/sites/default/files/styles/max_size/public/peanut-sweet-potato-soup-676015.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Curried Sweet Potato & Peanut Soup</h4>
+                <p class="ingredients">
+                  canola oil,yellow onion, minced garlic,minced fresh ginger, red curry paste and etc.
+                </p>
+                <p class="price">
+                  ₹220
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="https://frombowltosoul.com/wp-content/uploads/2018/08/chickpeas-6-500x500.jpg" class="glightbox"><img src="https://frombowltosoul.com/wp-content/uploads/2018/08/chickpeas-6-500x500.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Chhole (Chickpea Curry)</h4>
+                <p class="ingredients">
+                  serrano pepper, cloves garlic,piece fresh ginger,medium yellow onion, canola oil or grapeseed oil and etc.
+                </p>
+                <p class="price">
+                  ₹200
+                </p>
+              </div><!-- Menu Item -->
+
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  ₹12.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  ₹2.95
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>boiled spicy vegiees</h4>
+                <p class="ingredients">
+                  oil,Cabbage,carrot,coriander,salt and etc.
+                </p>
+                <p class="price">
+                  ₹290
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>What Are They <span>Saying About Us</span></p>
+        </div>
+
+        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        For the target group, the result is worth taking care of until the airline takes over. The accusers, however, need that, and need some discipline. Some faintness, but always a smile.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Radhey gopal</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Export time, however, I was for the evils of the evils that I was going to be angry with.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>radha shayam</h3>
+                      <h4>Designer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        For if I did not export a hair from your home, which are great, of which there is no one that I would bring to your home, I would labor for a short time..
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>liza </h3>
+                      <h4>Store Owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>PUSHKAR BIHST</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="https://imagehost9.online-image-editor.com/oie_upload/images/OIE_2019NOV_78044856_17862894/19134556u0z4YSPb.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Events</h2>
+          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+        </div>
+
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
+              <h3>Custom Parties</h3>
+              <div class="price align-self-start">₹1500</div>
+              <p class="description">
+                To which the pleasure of the body is directed. It will be possible for a wise inventor to make them all very happy. For the easy truth is that there are no expedients to reject.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
+              <h3>Private Parties</h3>
+              <div class="price align-self-start">₹4500</div>
+              <p class="description">
+                Let them be chosen who and for And from the finder of repudiation he seeks pains. It is true that no one can bear those pains. We often accuse the chosen one of being harsh.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
+              <h3>Birthday Parties</h3>
+              <div class="price align-self-start">₹3000</div>
+              <p class="description">
+                I will open the labors, and every less every one is to assume whom. Who is that to some? To be anyone, we lead the very services to some of the most. For you do not see.
+              </p>
+            </div><!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Chefs</h2>
+          <p>Our <span>Proffesional</span> Chefs</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Master Chef</span>
+                <p>He wants or because he runs away and and. The pleasure or the time of the pains itself is held either. Exercising itself with the right minimum of physical and pleasure.</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Pastry chef</span>
+                <p>Where to be repulsed because that It is him and his accusers who flees and takes no small part of his body. But with pleasure, which neither the mind nor the wise rejects.</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>Cook</span>
+                <p>In fact, everyone will have a consequence. Happiness will be pursued by those who leave trouble. For pleasures, or the architect, are further asperated by the manner of trouble.</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Book A Table</h2>
+          <p>Book <span>Your Stay</span> With Us</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Book a Table</button></div>
+            </form>
+          </div><!-- End Reservation Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>gallery</h2>
+          <p>Check  <span>Our Gallery</span></p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+       <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Our Address</h3>
+                <p>Street no 1, Noida IN 110096</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>contact@example.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+910088007700</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Opening Hours</h3>
+                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+                  <strong>Sunday:</strong> Closed
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+          <div class="row">
+            <div class="col-xl-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-xl-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form><!--End Contact Form -->
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              Street no 1 <br>
+              noida, ND 110096 - INDIA<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong>+910088008877<br>
+              <strong>Email:</strong> xyz@example.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>HealthyBites</span></strong>. All Rights Reserved by THE BOSS
+      </div>
+      <div class="credits">
+       Designed by <p>PUSHKAR BISHT</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
